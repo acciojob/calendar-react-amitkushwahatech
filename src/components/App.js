@@ -2,7 +2,6 @@ import React, {Component, useState} from "react";
 import '../styles/App.css'
 import moment from 'moment'
 
-
 export default function App() {
   let[selectedDate,setSelectedDate] = useState(moment());
   let[showYearInput,setShowYearInput] = useState(true);
